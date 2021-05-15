@@ -8,3 +8,53 @@ body
     padding: 50px;
     text-align: center;
 }
+
+kbd{
+text-align: center;
+}
+
+
+.row::after{
+content:"";
+clear: both;
+display: table;
+}
+
+.travel_mainDiv{
+    float: left;
+    width: 33.33%;
+    padding:5px;
+    border: 1px solid #c7c7c7;
+}
+
+.travel_mainDiv img{
+    width: 100%;
+    height:300%;
+}
+
+.travel_mainDiv hr{
+    width:100%
+}
+
+.travel_mainDiv h5, .travel_mainDiv p{
+margin-left: 20px;
+}
+
+.achhead{
+    font-size: 20px;
+    padding:6px 22px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    display: inline-block;
+    width: 100%;
+}
+
+.achhead i{
+float: right;
+}
+
+.mathcomp-head span{
+color:#ff7700;
+}
+
+
